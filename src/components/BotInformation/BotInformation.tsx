@@ -43,7 +43,7 @@ export default function BotInformation() {
           <p className="max-w-[50%]">{secondPart}</p>
         </div>
 
-        <LinkBtn text="Перейти" href="google.com" />
+        <LinkBtn text="Перейти" href="https://neal.fun/asteroid-launcher" />
 
         <div className="flex justify-center items-center absolute bottom-0 right-0">
           <Image
