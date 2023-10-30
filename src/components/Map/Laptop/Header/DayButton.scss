@@ -1,0 +1,20 @@
+.daybtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60px;
+  width: 200px;
+  background: transparent;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #FFF;
+  border-radius: 20px;
+  font-weight: 300;
+  outline: none;
+
+  &-text {
+    color: #FFF;
+    font-size: 20px;
+  }
+}

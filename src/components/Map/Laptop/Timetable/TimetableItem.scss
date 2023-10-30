@@ -1,0 +1,51 @@
+.timetable-item {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+  margin-left: 15px;
+
+  &:last-child {
+    margin-bottom: 20px;
+  }
+
+  &-time {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+
+    &-startdate {
+      position: relative;
+      opacity: .7;
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        width: 100%;
+        height: 1px;
+        background-color: #FFF;
+      }
+    }
+
+    &-enddate {
+      opacity: .7;
+    }
+  }
+
+  &-info {
+    &-name {
+      color: #FFF;
+      font-size: 32px;
+      font-weight: 900;
+      opacity: .7;
+    }
+    &-desc {
+      color: #FFF;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}

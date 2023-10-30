@@ -1,0 +1,37 @@
+{
+  "name": "ejf-webiste-2023",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --check .",
+    "prettier-fix": "prettier . --write"
+  },
+  "dependencies": {
+    "framer-motion": "^10.16.4",
+    "next": "13.5.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.2",
+    "react-sweet-state": "^2.7.1",
+    "sass": "^1.69.4",
+    "smooth-scrollbar-react": "^2.4.1",
+    "swiper": "^10.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6",
+    "eslint-plugin-prettier": "^5.0.1",
+    "postcss": "^8",
+    "prettier": "^3.0.3",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  }
+}

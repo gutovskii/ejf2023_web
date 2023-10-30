@@ -1,0 +1,56 @@
+@import '../../app/variables.scss';
+
+.header {
+  @media screen and (max-width: $mobile-width) {
+    padding: 25px 0;
+  }
+  &_logo {
+    @media screen and (max-width: $mobile-width){
+      height: 50px;
+      width: auto;
+      margin-left: 15px;
+    }
+  }
+  &_desktop {
+    @media screen and (max-width: $mobile-width ){
+      display: none;
+    }
+  }
+  &_mobile {
+    @media screen and (min-width: ($mobile-width + 1)) {
+      display: none;
+    }
+
+    &_wrapper {
+      transition: 0.5s ease-in-out;
+      position: absolute;
+      transform: translateX(100%);
+      top: 0;
+      opacity: 0;
+      &_active {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    &_link_block {
+      transition: 0.2s ease-in-out;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  &_link {
+    @apply font-manrope font-normal;
+    font-size: 20px;
+    @media screen and (max-width: $mobile-width){
+      font-size: 15px;
+    }
+
+    &_active {
+      @apply font-bold;
+    }
+  }
+}
+

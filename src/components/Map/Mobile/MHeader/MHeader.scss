@@ -1,0 +1,32 @@
+.mheader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  &-map {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 80%;
+    text-align: left;
+  }
+
+  &-btns {
+    width: 100%;
+    margin: 20px 0;
+
+    &-info {
+      color: #000;
+      font-family: Unbounded;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    &-items {
+      display: flex;
+      justify-content: flex-start;
+      gap: 5px;
+    }
+  }
+}

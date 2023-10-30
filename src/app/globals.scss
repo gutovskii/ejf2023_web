@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './variables.scss';
+
+.content-container {
+  max-width: 1920px;
+  width: 100%;
+}
+
+.main-container {
+  @media screen and (max-width: 426px) {
+    margin-top: 25px;
+  }
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+

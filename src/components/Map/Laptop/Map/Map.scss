@@ -1,0 +1,16 @@
+.map {
+  width: 70%;
+  
+  &-h2 {
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    &-map {
+      color: #FFF;
+      font-size: 42px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}

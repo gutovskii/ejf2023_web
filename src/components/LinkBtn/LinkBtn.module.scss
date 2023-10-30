@@ -1,0 +1,61 @@
+.linkBtn {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &Block {
+    padding: 20px;
+    border-radius: 30px;
+    flex-direction: row;
+    background-color: #0038FF;
+    transition: .15s linear all;
+
+    &:hover {
+      background-color: #002dce;
+    }
+
+    > a {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}
+
+.arrowImage {
+  height: 40px !important;
+  width: 40px !important;
+}
+
+@media screen and (max-width: 769px) {
+  .linkBtn {
+    font-size: 22px;
+
+    &Block {
+      padding: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .linkBtn {
+    font-size: 15px;
+    
+    &Block {
+      padding: 5px 10px;
+
+      > a {
+        gap: 10px;
+        > div:last-child {
+          > img {
+            width: 20px !important;
+            height: 20px !important;
+          }
+        }
+      }
+    }
+  }
+}
