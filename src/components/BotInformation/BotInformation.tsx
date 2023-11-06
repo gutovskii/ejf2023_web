@@ -7,9 +7,9 @@ export default function BotInformation() {
   const our = 'НАШ';
   const bot = 'БОТ';
   const firstPart =
-    ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ';
+    ' Перегляд розкладу? Залити своє резюме, щоби його переглянули наші партнери? Взяти участь у Quest Case Study та дізнатись більше про ІЯК? ';
   const secondPart =
-    '  Duis aute    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.';
+    "  Це все присутнє в нашому телеграм боті Інженерного Ярмарку Кар'єри. Тож хутчіш реєструйся та отримуй доступ до всіх можливостей проєкту! ";
   return (
     <div
       className="bg-black text-white border-white border-[1.5px] rounded-3xl
@@ -43,7 +43,7 @@ export default function BotInformation() {
           <p className="max-w-[50%]">{secondPart}</p>
         </div>
 
-        <LinkBtn text="Перейти" href="https://neal.fun/asteroid-launcher" />
+        <LinkBtn text="Перейти" href="https://t.me/jobfair_23_bot" />
 
         <div className="flex justify-center items-center absolute bottom-0 right-0">
           <Image

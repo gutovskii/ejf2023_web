@@ -11,7 +11,7 @@ export default function LinkBtn({ text, href }: LinkBtnProps) {
   return (
     <div className={`${styles.linkBtn}`}>
       <div className={`${styles.linkBtnBlock}`}>
-        <a className={`${manrope.className}`} href={href}>
+        <a className={`${manrope.className}`} href={href} target="_blank">
           <div>{text}</div>
           <Image
             src="/icons/arrow.svg"

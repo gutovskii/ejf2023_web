@@ -6,7 +6,7 @@ import 'swiper/css/autoplay';
 import 'swiper/css/scrollbar';
 import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Photos from '../../utils/OurPhotoExporter';
+import { photos } from '../../utils/OurPhotoExporter';
 import LinkBtn from '../LinkBtn';
 
 export default function OurPhotos() {
@@ -16,19 +16,20 @@ export default function OurPhotos() {
         className={`${unbounded.className} items-center flex justify-between px-7 font-black text-left mb-[50px] text-[30px] sm:mb-[20px] md:text-[45px] lg:text-[60px] mt-[100px]`}
       >
         НАШІ ФОТО
-        <LinkBtn text="Дивитись усі" href="google.com" />
+        <LinkBtn text="Дивитись усі" href="https://www.flickr.com/photos/bestlviv/albums" />
       </h3>
 
-      <Slider direction="left" />
-      <Slider direction="right" />
+      <Slider direction="left" photos={photos.firstSlider} />
+      <Slider direction="right" photos={photos.secondSlider} />
     </>
   );
 }
 
 type SliderProps = {
   direction: 'left' | 'right';
+  photos: any[];
 };
-function Slider({ direction }: SliderProps) {
+function Slider({ direction, photos }: SliderProps) {
   return (
     <>
       <Swiper
@@ -43,7 +44,7 @@ function Slider({ direction }: SliderProps) {
           reverseDirection: direction == 'left',
         }}
       >
-        {Photos.map((photo) => (
+        {photos.map((photo) => (
           <SwiperSlide key={photo.src} className="h-[318px] w-[541px]">
             {' '}
             <Image width={541} height={318} src={photo} alt="photo" />
