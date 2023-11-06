@@ -1,6 +1,5 @@
 import { manrope, unbounded } from '@/app/fonts';
 import Image from 'next/image';
-import './Teammate.scss';
 import { TeammateData } from './team.config';
 
 export default function Teammate({ teammate }: { teammate: TeammateData }) {
@@ -8,8 +7,8 @@ export default function Teammate({ teammate }: { teammate: TeammateData }) {
     <div className="flex flex-col items-center relative h-[400px] w-[250px] p-5">
       <div className="absolute bottom-0 w-[120%] h-[75%] bg-white rounded-3xl z-[1]"></div>
       <div className="flex flex-col items-center z-[2]">
-        <div className="mb-5 absolute h-[250px] w-[250px] teammate-image">
-          <Image src={teammate.imgSrc} alt={teammate.name} width={300} height={300} />
+        <div className="mb-5 teammate-image">
+          <Image src={teammate.imgSrc} alt={teammate.name} width={400} height={400} />
         </div>
         <div className="absolute bottom-[15px]">
           <div
