@@ -14,7 +14,8 @@ export default function Teammate({ teammate }: { teammate: TeammateData }) {
           <div
             className={`${unbounded.className} font-black uppercase text-[26px] text-center text-black mb-3 leading-8`}
           >
-            {teammate.name}
+            <p>{teammate.name.split(' ')[0]}</p>
+            <p>{teammate.name.split(' ')[1]}</p>
           </div>
           <div className="flex justify-center">
             <div
