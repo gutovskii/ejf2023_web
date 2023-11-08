@@ -13,11 +13,11 @@ const ROUTES = [
     text: 'Головна',
     iconSrc: '/icons/house.svg',
   },
-  // {
-  //   href: '/partners',
-  //   text: 'Партнери',
-  //   iconSrc: '/icons/diamond.svg',
-  // },
+  {
+    href: '/partners',
+    text: 'Партнери',
+    iconSrc: '/icons/diamond.svg',
+  },
   // {
   //   href: '/map',
   //   text: 'Карта',
