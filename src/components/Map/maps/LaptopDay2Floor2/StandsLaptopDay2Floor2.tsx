@@ -11,7 +11,6 @@ const StandsLaptopDay2Floor2 = () => {
             size={stand.standProps.size}
             rotate={stand.standProps.rotate}
             text={stand.standProps.text}
-            isActive={stand.standProps.isActive}
           />
         </div>
       ))}
