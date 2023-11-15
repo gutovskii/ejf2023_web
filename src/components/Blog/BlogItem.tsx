@@ -17,7 +17,7 @@ export default function BlogItem({ blogItemId }: BlogItemProps) {
       className="blog-item w-[100%] sm:w-[100%] md:w-[50%] lg:w-[50%] p-1"
     >
       <div className="flex justify-between gap-3 items-center h-[100%] w-[100%] border rounded-[25px] p-5 cursor-pointer">
-        <div>
+        <div className="w-[80%]">
           <h4 className={`${unbounded.className} font-bold text-[36px]`}>
             {blogItemsConfig[blogItemId].title}
           </h4>
@@ -25,7 +25,7 @@ export default function BlogItem({ blogItemId }: BlogItemProps) {
             {blogItemsConfig[blogItemId].description}
           </p>
         </div>
-        <div>
+        <div className="w-[20%]">
           <Image
             src={blogItemsConfig[blogItemId].logoSrc}
             alt={blogItemsConfig[blogItemId].title}
