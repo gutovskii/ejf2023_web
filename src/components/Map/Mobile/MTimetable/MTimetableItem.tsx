@@ -24,7 +24,8 @@ const MTimetableItem: React.FC<MTimetableItemProps> = ({ config }) => {
               : {}
           }
         >
-          {config.startDate.getHours()}:{config.startDate.getMinutes()}
+          {(config.startDate.getHours() < 10 ? '0' : '') + config.startDate.getHours()}:
+          {(config.startDate.getMinutes() < 10 ? '0' : '') + config.startDate.getMinutes()}
         </div>
         <div
           className="mtimetable-item-time-enddate"
@@ -37,7 +38,8 @@ const MTimetableItem: React.FC<MTimetableItemProps> = ({ config }) => {
               : {}
           }
         >
-          {config.endDate.getHours()}:{config.endDate.getMinutes()}
+          {(config.endDate.getHours() < 10 ? '0' : '') + config.endDate.getHours()}:
+          {(config.endDate.getMinutes() < 10 ? '0' : '') + config.endDate.getMinutes()}
         </div>
       </div>
       <div className="mtimetable-item-info">

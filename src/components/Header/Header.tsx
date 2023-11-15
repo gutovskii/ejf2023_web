@@ -23,11 +23,11 @@ const ROUTES = [
     text: 'Блог',
     iconSrc: '/icons/blog.svg',
   },
-  // {
-  //   href: '/map',
-  //   text: 'Карта',
-  //   iconSrc: '/icons/location.svg',
-  // },
+  {
+    href: '/map',
+    text: 'Карта',
+    iconSrc: '/icons/location.svg',
+  },
   {
     href: '/about',
     text: 'Організатори',

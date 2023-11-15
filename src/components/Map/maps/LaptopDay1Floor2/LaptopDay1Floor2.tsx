@@ -11,7 +11,7 @@ const LaptopDay1Floor2: React.FC = () => {
           position: 'absolute',
           top: '-1px',
           left: '-1px',
-          height: '450px',
+          height: '500px',
           width: '150px',
           background: 'transparent',
           border: '1px solid #FFF',
@@ -23,7 +23,7 @@ const LaptopDay1Floor2: React.FC = () => {
           position: 'absolute',
           top: '-1px',
           right: '-1px',
-          height: '450px',
+          height: '500px',
           width: '150px',
           background: 'transparent',
           border: '1px solid #FFF',
@@ -64,7 +64,7 @@ const LaptopDay1Floor2: React.FC = () => {
           alignItems: 'center',
           position: 'absolute',
           right: '-16px',
-          top: '77%',
+          top: '83.8%',
           transform: 'rotate(90deg)',
           height: '35px',
           width: '90px',
@@ -78,7 +78,7 @@ const LaptopDay1Floor2: React.FC = () => {
       <div
         style={{
           position: 'absolute',
-          top: '65%',
+          top: '67%',
           left: '50%',
           transform: 'translateX(-50%)',
         }}

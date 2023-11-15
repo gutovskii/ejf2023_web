@@ -33,7 +33,7 @@ const MobileDay2Floor2: React.FC = () => {
       <div
         style={{
           position: 'absolute',
-          top: '75%',
+          top: '85%',
           left: '50%',
           transform: 'translateX(-50%)',
           height: '30px',
@@ -65,7 +65,7 @@ const MobileDay2Floor2: React.FC = () => {
           position: 'absolute',
           fontSize: '8px',
           right: '-8px',
-          top: '67%',
+          top: '73.5%',
           transform: 'rotate(90deg)',
           height: '16px',
           width: '55px',
@@ -79,12 +79,12 @@ const MobileDay2Floor2: React.FC = () => {
       <div
         style={{
           position: 'absolute',
-          top: '55%',
+          top: '68%',
           left: '50%',
           transform: 'translateX(-50%)',
         }}
       >
-        <Stage device="mobile" day="secondDay" />
+        <Stage device="mobile" day="firstDay" />
       </div>
       <div>
         <StandsMobileDay2Floor2 />
