@@ -3,12 +3,14 @@ import { Action, createHook, createStore } from 'react-sweet-state';
 export type State = {
   currentCompany: string;
   day: number;
+  currentBlogItemId: string;
 };
 type Actions = typeof actions;
 
 const initialState: State = {
   currentCompany: 'SoftServe',
   day: 1,
+  currentBlogItemId: 'A',
 };
 
 const actions = {
@@ -24,6 +26,13 @@ const actions = {
     ({ setState }) => {
       setState({
         day,
+      });
+    },
+  chooseBlogItem:
+    (id: string): Action<State> =>
+    ({ setState }) => {
+      setState({
+        currentBlogItemId: id,
       });
     },
 };

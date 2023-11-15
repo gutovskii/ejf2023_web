@@ -18,6 +18,11 @@ const ROUTES = [
     text: 'Партнери',
     iconSrc: '/icons/diamond.svg',
   },
+  {
+    href: '/blog',
+    text: 'Блог',
+    iconSrc: '/icons/blog.svg',
+  },
   // {
   //   href: '/map',
   //   text: 'Карта',

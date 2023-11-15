@@ -1,0 +1,8 @@
+.blog-item {
+  opacity: 1;
+  transition: all .15s linear;
+
+  &:hover {
+    opacity: .6;
+  }
+}
