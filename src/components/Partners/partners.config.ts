@@ -170,6 +170,18 @@ export const partnersConfig: PartnersConfig = {
       third: '/images/company-photos/tsukat/tsukat_3.jpg',
     },
   },
+  'Kevych Solutions': {
+    logoSrc: '/images/company-full-logos/kevych.svg',
+    description:
+      '<strong>Kevych Solutions</strong> – це львівська аутсорс та аутстаф IT-компанія. Їхні основні напрямки роботи – нативна та кросплатформена мобільна розробка, а також створення вебсайтів. З 2021 та дотепер Kevych Solutions робить додатки на iOS та Android платформах. Менше ніж за 3 роки компанія має більше 40-а амбіційних працівників та чудову дружню атмосферу в гарно облаштованому офісі. Вони вірять, що поєднання активного росту, відданості та людських цінностей не тільки допоможе розвиватися як компанії, але й дасть можливість змінити світ.',
+    url: 'https://jobs.dou.ua/companies/kevych-solutions/',
+    btnText: 'Перейти на DOU',
+    imgSrcs: {
+      first: '/images/company-photos/kevych/kevych_1.jpg',
+      second: '/images/company-photos/kevych/kevych_2.jpg',
+      third: '/images/company-photos/kevych/kevych_3.jpg',
+    },
+  },
 };
 
 export const companyLogosSrc = ['/images/company-mini-logos/softserve.png'];
